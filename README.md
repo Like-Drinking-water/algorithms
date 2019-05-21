@@ -11,5 +11,6 @@
 4. [栈与队列结合练习](https://github.com/Like-Drinking-water/algorithms/tree/master/stackAndQueue)
 5. [链表](https://github.com/Like-Drinking-water/algorithms/tree/master/linkedList)
 6. [枚举法](https://github.com/Like-Drinking-water/algorithms/tree/master/enumerate)
-7. [深度优先算法](https://github.com/Like-Drinking-water/algorithms/tree/master/depthFirstSearch)
+7. [深度优先搜索](https://github.com/Like-Drinking-water/algorithms/tree/master/depthFirstSearch)
+8. [广度优先搜索](https://github.com/Like-Drinking-water/algorithms/tree/master/breadthFirstSearch)
 

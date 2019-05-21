@@ -1,4 +1,6 @@
 # 栈
+## 目录简介
+* [PalindromeProblem](https://github.com/Like-Drinking-water/algorithms/tree/master/stack/PalindromeProblem) - 通过栈判断是否是回文
 ## 数据结构
 ``` c
 typedef struct {

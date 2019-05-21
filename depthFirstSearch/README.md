@@ -1,7 +1,11 @@
 # 深度优先搜索
 在这个算法当中，将每个数放的位置看成一个盒子，将要放到数看成一张牌  
 将牌放到盒子中以实现排列  
-约定好每到一个盒子前都先放一号牌，再放二号牌依此类推   
+约定好每到一个盒子前都先放一号牌，再放二号牌依此类推  
+## 目录简介
+* [fillNumber](https://github.com/Like-Drinking-water/algorithms/tree/master/depthFirstSearch/fillNumber) - 通过深度优先搜索算法填数字使等式成立
+* [findInMap](https://github.com/Like-Drinking-water/algorithms/tree/master/depthFirstSearch/findInMap) - 通过深度优先搜索算法找到从起点到终点的最短路径
+* [fullPermutation](https://github.com/Like-Drinking-water/algorithms/tree/master/depthFirstSearch/fullPermutation) - 通过深度优先搜索完成全排列
 ## 关键代码
 设有 n 个盒子  
 每一次到达新盒子前，都判断是不是到达 n + 1 个盒子  

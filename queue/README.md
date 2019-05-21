@@ -1,4 +1,7 @@
 # 队列
+## 目录简介
+* [DecryptQQProblem](https://github.com/Like-Drinking-water/algorithms/tree/master/queue/DecryptQQProblem) - 利用队列对 QQ 账号进行解密
+* [DecryptQQProblem-struct](https://github.com/Like-Drinking-water/algorithms/tree/master/queue/DecryptQQProblem-struct) - 将队列封装成结构体
 ## 数据结构
 ### 链队列
 ``` c

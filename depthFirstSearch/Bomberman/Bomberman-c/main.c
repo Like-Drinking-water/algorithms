@@ -101,7 +101,7 @@ int main(void) {
 	//输入地图的大小 
 	scanf("%d %d", &n, &m);
 	//动态创建二维数组给地图使用 
-	map =(char **)malloc(sizeof(char) * n);  
+	map =(char **)malloc(sizeof(char *) * n);  
     for(i = 0; i < n; i++) {
     	map[i] = (char *)malloc(sizeof(char) * m); 
 	}
@@ -110,7 +110,7 @@ int main(void) {
 		scanf("%s", map[i]);
 	}
 	//动态创建二维数组给路径标记使用 
-	book =(int **)malloc(sizeof(int) * n);  
+	book =(int **)malloc(sizeof(int *) * n);  
     for(i = 0; i < n; i++) {
     	book[i] = (int *)malloc(sizeof(int) * m); 
 	}

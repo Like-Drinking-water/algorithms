@@ -7,6 +7,8 @@
 * [findInMap](https://github.com/Like-Drinking-water/algorithms/tree/master/depthFirstSearch/findInMap) - 通过深度优先搜索算法找到从起点到终点的最短路径
 * [fullPermutation](https://github.com/Like-Drinking-water/algorithms/tree/master/depthFirstSearch/fullPermutation) - 通过深度优先搜索完成全排列
 * [Bomberman](https://github.com/Like-Drinking-water/algorithms/tree/master/depthFirstSearch/Bomberman) - 通过深度优先搜索算法找到炸弹人能走的路径并求出能消灭最多敌人的点
+* [landingProblem](https://github.com/Like-Drinking-water/algorithms/tree/master/depthFirstSearch/landingProblem) - 通过着陆的点判断着陆的岛屿面积并着色
+* [numberOfLand](https://github.com/Like-Drinking-water/algorithms/tree/master/depthFirstSearch/numberOfLand) - 获取地图上一共有多少个岛屿
 ## 关键代码
 设有 n 个盒子  
 每一次到达新盒子前，都判断是不是到达 n + 1 个盒子  

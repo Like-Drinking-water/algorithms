@@ -10,6 +10,7 @@
 * [landingProblem](https://github.com/Like-Drinking-water/algorithms/tree/master/depthFirstSearch/landingProblem) - 通过着陆的点判断着陆的岛屿面积并着色
 * [numberOfLand](https://github.com/Like-Drinking-water/algorithms/tree/master/depthFirstSearch/numberOfLand) - 获取地图上一共有多少个岛屿
 * [pipeProblem](https://github.com/Like-Drinking-water/algorithms/tree/master/depthFirstSearch/pipeProblem) - 解决水管连接问题
+* [graphTraversal](https://github.com/Like-Drinking-water/algorithms/tree/master/depthFirstSearch/graphTraversal) - 图的遍历
 ## 关键代码
 设有 n 个盒子  
 每一次到达新盒子前，都判断是不是到达 n + 1 个盒子  

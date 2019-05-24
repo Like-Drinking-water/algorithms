@@ -8,12 +8,12 @@
 炸弹，炸弹不能穿过墙 
 解决：使用广度优先搜索 
 *************************************/
-typedef struct QNote {
+typedef struct QNode {
 	//行坐标 
 	int x;
 	//列坐标
 	int y; 
-} QNote; 
+} QNode; 
 
 /**
 * 获取地图上某个点能消灭敌人的个数
@@ -62,7 +62,7 @@ int getSum(int x, int y, char **map) {
 
 int main(void) {
 	//队列 
-	QNote *q;
+	QNode *q;
 	//地图
 	char **map;
 	//标志 
@@ -112,7 +112,7 @@ int main(void) {
 	head = 0;
 	tail = 0; 
 	//给队列分配空间 
-	q = (QNote *)malloc(n * m * sizeof(QNote));
+	q = (QNode *)malloc(n * m * sizeof(QNode));
 	//从起点开始出发
 	book[startx][starty] = 1;
 	q[tail].x = startx;

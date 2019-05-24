@@ -12,17 +12,17 @@
 #define M 10 
 #define AREA N * M
 
-typedef struct QNote {
+typedef struct QNode {
 	int x;
 	int y;
-} QNote; 
+} QNode; 
 
 int main(void) {
 	//地图 
 	int map[N][M];
 	//标志 
 	int book[N][M];
-	QNote q[AREA]; 
+	QNode q[AREA]; 
 	//辅助变量 着陆的坐标 队列头指针 陆地面积 
 	int i, j, landingx, landingy, tmpx, tmpy, head, tail, area = 0;
 	//下一步可以走的地方 

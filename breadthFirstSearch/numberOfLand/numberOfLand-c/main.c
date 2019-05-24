@@ -7,18 +7,18 @@
 解决：通过广度优先搜素解决 
 *********************************************************/
 
-typedef struct QNote {
+typedef struct QNode {
 	//行坐标 
 	int x;
 	//列坐标 
 	int y;
-} QNote; 
+} QNode; 
 
 int main(void) {
 	//岛屿的数量
 	int numberOfLand = 0; 
 	//队列 
-	QNote *q; 
+	QNode *q; 
 	int head, tail; 
 	//地图以及标记 
 	int **map, **book;
@@ -60,7 +60,7 @@ int main(void) {
 		}
 	}
 	//初始队列
-	q = (QNote *)malloc(sizeof(QNote) * n * m);
+	q = (QNode *)malloc(sizeof(QNode) * n * m);
 	head = 0;
 	tail = 0;
 	//枚举地图上的点

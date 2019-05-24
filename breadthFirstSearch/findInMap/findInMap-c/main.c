@@ -7,7 +7,7 @@
 解决：使用广度优先搜索 
 ************************************************/ 
 
-typedef struct QNote {
+typedef struct QNode {
 	//行坐标 
 	int x;
 	//列坐标 
@@ -16,7 +16,7 @@ typedef struct QNote {
 	int father;
 	//已经走的步数
 	int step; 
-}QNote; 
+}QNode; 
 
 typedef struct Path {
 	//行坐标 
@@ -33,7 +33,7 @@ int main(void) {
 	//用来标记队列的起点与终点 
 	int head, tail; 
 	//用来保存节点 
-	QNote *q;
+	QNode *q;
 	//辅助变量 地图的大小 起点 终点 临时位置 到达终点的标志 
 	int i, j, n, m, startx, starty, endx, endy, tmpx, tmpy, flag; 
 	//下一步可以走的地方 
@@ -70,7 +70,7 @@ int main(void) {
 	//获取起点与终点 
 	scanf("%d %d %d %d", &startx, &starty, &endx, &endy);
 	//给队列分配空间
-	q = (QNote *)malloc(n * m * sizeof(QNote));
+	q = (QNode *)malloc(n * m * sizeof(QNode));
 	//初始化队列
 	head = 0;
 	tail = 0;

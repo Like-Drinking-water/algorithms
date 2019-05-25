@@ -6,6 +6,7 @@
 * [landingProblem](https://github.com/Like-Drinking-water/algorithms/tree/master/breadthFirstSearch/landingProblem) - 通过着陆的点判断着陆的岛屿面积
 * [numberOfLand](https://github.com/Like-Drinking-water/algorithms/tree/master/breadthFirstSearch/numberOfLand) - 获取地图上一共有多少个岛屿
 * [graphTraversal](https://github.com/Like-Drinking-water/algorithms/tree/master/breadthFirstSearch/graphTraversal) - 图的遍历
+* [leastTransfer](https://github.com/Like-Drinking-water/algorithms/tree/master/breadthFirstSearch/leastTransfer) - 最少换乘
 ## 关键代码
 深度优先搜索是一层一层搜寻  
 首先先确定下一步能走地方

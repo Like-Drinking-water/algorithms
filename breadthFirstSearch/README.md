@@ -5,6 +5,7 @@
 * [Bomberman](https://github.com/Like-Drinking-water/algorithms/tree/master/breadthFirstSearch/Bomberman) - 通过广度优先搜索算法找到炸弹人能走的路径并求出能消灭最多敌人的点
 * [landingProblem](https://github.com/Like-Drinking-water/algorithms/tree/master/breadthFirstSearch/landingProblem) - 通过着陆的点判断着陆的岛屿面积
 * [numberOfLand](https://github.com/Like-Drinking-water/algorithms/tree/master/breadthFirstSearch/numberOfLand) - 获取地图上一共有多少个岛屿
+* [graphTraversal](https://github.com/Like-Drinking-water/algorithms/tree/master/breadthFirstSearch/graphTraversal) - 图的遍历
 ## 关键代码
 深度优先搜索是一层一层搜寻  
 首先先确定下一步能走地方

@@ -15,7 +15,7 @@ int main() {
 	int i, j, k, a, b, c; 
 	//图 
 	int **graph;
-	//获取节点的数量以及边数还有起点跟终点 
+	//获取节点的数量以及边数
 	scanf("%d %d", &n, &m); 
 	//给图创建空间 
 	graph = (int **)malloc(sizeof(int *) * n);

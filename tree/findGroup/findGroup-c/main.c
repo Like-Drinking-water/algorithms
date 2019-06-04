@@ -28,6 +28,7 @@ int getFather(int i) {
 		return i; 
 	} 
 	else {
+		//将所有点都指向一个父节点 
 		f[i] = getFather(f[i]);
 		return f[i];
 	}
@@ -64,7 +65,7 @@ int main(void) {
 		if (i == f[i]) {
 			sum++; 
 		}
-	} 
+	}
 	//打印结果 
 	printf("%d", sum);
 	return 0;

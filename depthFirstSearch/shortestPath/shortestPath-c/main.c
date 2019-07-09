@@ -15,13 +15,15 @@ int n, m;
 //保存路径 
 int *path, *shortestPath;
 int top = 0, stop = 0;
+//终点
+int end; 
 
 void dfs(int start, int length) {
 	int i;
 	path[top] = start;
 	top++;
 	//如果到达终点且距离比现在最短距离更短
-	if (start == 4 && length < min) {
+	if (start == end && length < min) {
 		//获取当前最短距离 
 		min = length;
 		//保存最短路径 
@@ -29,9 +31,6 @@ void dfs(int start, int length) {
 			shortestPath[i] = path[i];
 		}
 		stop = top;
-		return;
-	}
-	else {
 		return;
 	}
 	for (i = 0; i < n; i++) {
@@ -48,8 +47,8 @@ void dfs(int start, int length) {
 int main(void) {
 	//辅助变量以及临时存储变量
 	int i, j, a, b, c;
-	//输入节点的数量以及边数 
-	scanf("%d %d", &n, &m); 
+	//输入节点的数量以及边数、终点 
+	scanf("%d %d %d", &n, &m, &end); 
 	//给图创建空间 
 	graph = (int **)malloc(sizeof(int *) * n);
 	for (i = 0; i < n; i++) {
@@ -74,7 +73,7 @@ int main(void) {
 	for (i = 0; i < m; i++) {
 		scanf("%d %d %d", &a, &b, &c);
 		graph[a][b] = c;
-		graph[a][b] = c;
+		graph[b][a] = c;
 	} 
 	//初始化标记
 	for (i = 0; i < n; i++) {
@@ -90,6 +89,6 @@ int main(void) {
 	for (i = 0; i < stop - 1; i++) {
 		printf("%d -> ", shortestPath[i]);
 	} 
-	printf("4    length = %d", min);
+	printf("%d    length = %d", end, min);
 	return 0;
 }

@@ -18,3 +18,4 @@
 11. [Bellman-Ford](https://github.com/Like-Drinking-water/algorithms/tree/master/Bellman-Ford)
 12. [树](https://github.com/Like-Drinking-water/algorithms/tree/master/tree)
 13. [线性表](https://github.com/Like-Drinking-water/algorithms/tree/master/linearList)
+14. [字符串](https://github.com/Like-Drinking-water/algorithms/tree/master/string)

@@ -12,6 +12,22 @@ typedef unsigned char SString[MAXSTRLEN + 1];
 int next[MAXSTRLEN + 1];
 
 //ªÒ»°next 
+//void getNext(SString s, int next[]) {
+//	int i, j;
+//	i = 1;
+//	j = 0;
+//	next[1] = 0;
+//	while (i < s[0]) {
+//		if (j == 0 || s[i] == s[j]) {
+//			i++;
+//			j++;
+//			next[i] = j;
+//		}
+//		else {
+//			j = next[j]; 
+//		}
+//	}
+//}
 void getNext(SString s, int next[]) {
 	int i, j;
 	i = 1;
@@ -21,10 +37,15 @@ void getNext(SString s, int next[]) {
 		if (j == 0 || s[i] == s[j]) {
 			i++;
 			j++;
-			next[i] = j;
+			if (s[i] != s[j]) {
+				next[i] = j;
+			} 
+			else {
+				next[i] = next[j];
+			}
 		}
 		else {
-			j = next[j]; 
+			j = next[j];
 		}
 	}
 }

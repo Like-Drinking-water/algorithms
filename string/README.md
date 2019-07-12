@@ -26,6 +26,27 @@ while (i < t[0]) {
 	}
 }
 ```
+优化一下 next 的获取
+``` c
+i = 1;
+j = 0;
+next[1] = 0;
+while (i < s[0]) {
+	if (j == 0 || s[i] == s[j]) {
+		i++;
+		j++;
+		if (s[i] != s[j]) {
+			next[i] = j;
+		} 
+		else {
+			next[i] = next[j];
+		}
+	}
+	else {
+		j = next[j];
+	}
+}
+```
 获取完 next 后则可以根据 next 来完成算法
 ``` c
 //pos 表示开始匹配的位置

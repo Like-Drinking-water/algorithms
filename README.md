@@ -19,3 +19,5 @@
 12. [树](https://github.com/Like-Drinking-water/algorithms/tree/master/tree)
 13. [线性表](https://github.com/Like-Drinking-water/algorithms/tree/master/linearList)
 14. [字符串](https://github.com/Like-Drinking-water/algorithms/tree/master/string)
+15. [数组](https://github.com/Like-Drinking-water/algorithms/tree/master/array)
+

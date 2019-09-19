@@ -1,4 +1,4 @@
-# 树
+﻿# 树
 ## 目录简介
 * [minHeap](https://github.com/Like-Drinking-water/algorithms/tree/master/tree/minHeap) - 最小堆
 * [maxHeap](https://github.com/Like-Drinking-water/algorithms/tree/master/tree/maxHeap) - 使用最大堆进行排序
@@ -8,3 +8,4 @@
 * [cutVertex](https://github.com/Like-Drinking-water/algorithms/tree/master/tree/cutVertex) - 图的割点
 * [cutEdge](https://github.com/Like-Drinking-water/algorithms/tree/master/tree/cutEdge) - 图的割边
 * [bipartiteMatching](https://github.com/Like-Drinking-water/algorithms/tree/master/tree/bipartiteMatching) - 二分图匹配
+* [preOrderTraverse](https://github.com/Like-Drinking-water/algorithms/tree/master/tree/preOrderTraverse) - 先序遍历二叉树

@@ -75,23 +75,6 @@ Status preOrderTraverse(BiTree *t, Status (*visit)(BiTreeNode *t)) {
 	}
 } 
 
-//ÖÐÐò±éÀú¶þ²æÊ÷ 
-Status InOrderTraverse(BiTree *t, Status (*visit)(BiTreeNode *t)) {
-	if (t) {
-		if (InOrderTraverse(t->lchild, visit)) {
-			if (visit(t)) {
-				if (InOrderTraverse(t->rchild, visit)) {
-					return OK;
-				}
-			} 
-			return ERROR;
-		}
-	}
-	else {
-		return OK;
-	}
-}
-
 int main(void) {
 	BiTree *t;
 	BiTreeNode *tmp;

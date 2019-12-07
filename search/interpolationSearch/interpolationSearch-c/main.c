@@ -32,22 +32,22 @@ int lt(int a, int b) {
 	}
 }
 
-int halfIntervalSearch(SSTable *st, int key) {
-	int low, high, min;
+int interpolationSearch(SSTable *st, int key) {
+	int low, high, mid;
 	low = 0;
 	high = st->length - 1;
 	while (low <= high) {
-		min = low + (((key - st->data[low]) * (high - low + 1)) / (st->data[high] - st->data[low]));
-		if (equal(st->data[min], key)) {
-			return min;
+		mid = low + (((key - st->data[low]) * (high - low + 1)) / (st->data[high] - st->data[low]));
+		if (equal(st->data[mid], key)) {
+			return mid;
 		}
 		//查找值比中间值大 
-		else if (lt(st->data[min], key)) {
-			low = min + 1;
+		else if (lt(st->data[mid], key)) {
+			low = mid + 1;
 		}
 		//查找值比中间值小 
 		else {
-			high = min - 1;
+			high = mid - 1;
 		}
 	}
 	return -1; 
@@ -62,7 +62,9 @@ int main(int argc, char *argv[]) {
 	for (i = 0; i < 10; i++) {
 		st->data[i] = 2 * i - 1;
 	}
-	printf("%d", halfIntervalSearch(st, 5));
+	printf("%d", interpolationSearch(st, 5));
+	free(st->data);
+	free(st);
 	return 0;
 }
 

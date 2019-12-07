@@ -33,21 +33,21 @@ int lt(int a, int b) {
 }
 
 int halfIntervalSearch(SSTable *st, int key) {
-	int low, high, min;
+	int low, high, mid;
 	low = 0;
 	high = st->length - 1;
 	while (low <= high) {
-		min = (low + high) / 2;
-		if (equal(st->data[min], key)) {
-			return min;
+		mid = (low + high) / 2;
+		if (equal(st->data[mid], key)) {
+			return mid;
 		}
 		//查找值比中间值大 
-		else if (lt(st->data[min], key)) {
-			low = min + 1;
+		else if (lt(st->data[mid], key)) {
+			low = mid + 1;
 		}
 		//查找值比中间值小 
 		else {
-			high = min - 1;
+			high = mid - 1;
 		}
 	}
 	return -1; 

@@ -9,6 +9,6 @@
 * [cutEdge](https://github.com/Like-Drinking-water/algorithms/tree/master/tree/cutEdge) - 图的割边
 * [bipartiteMatching](https://github.com/Like-Drinking-water/algorithms/tree/master/tree/bipartiteMatching) - 二分图匹配
 * [preOrderTraverse](https://github.com/Like-Drinking-water/algorithms/tree/master/tree/preOrderTraverse) - 先序遍历二叉树
-* [inOrderTraverse](https://github.com/Like-Drinking-water/algorithms/tree/master/tree/inOrderTraverse) - 先序遍历二叉树
+* [inOrderTraverse](https://github.com/Like-Drinking-water/algorithms/tree/master/tree/inOrderTraverse) - 后序遍历二叉树
 * [huffmanCode](https://github.com/Like-Drinking-water/algorithms/tree/master/tree/huffmanCode) - 赫夫曼编码
 * [subset](https://github.com/Like-Drinking-water/algorithms/tree/master/tree/subset) - 子集

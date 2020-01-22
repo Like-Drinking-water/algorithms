@@ -6,7 +6,7 @@
 ************************************/
 
 #define TRUE 1
-#define FLASE 0
+#define FALSE 0
 //斐波那契数组的长度 
 #define MAX_SIZE 20
 #define ERROR -1
@@ -23,7 +23,7 @@ int equal(int a, int b) {
 		return TRUE;
 	}
 	else {
-		return FLASE;
+		return FALSE;
 	}
 }
 
@@ -32,7 +32,7 @@ int lt(int a, int b) {
 		return TRUE;
 	}
 	else {
-		return FLASE;
+		return FALSE;
 	}
 }
 

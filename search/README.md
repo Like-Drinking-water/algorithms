@@ -1,7 +1,8 @@
-ï»¿# æŸ¥æ‰¾
-## ç›®å½•ç®€ä»‹
-* [halfIntervalSearch](https://github.com/Like-Drinking-water/algorithms/tree/master/search/halfIntervalSearch) - æŠ˜åŠæŸ¥æ‰¾
-* [interpolationSearch](https://github.com/Like-Drinking-water/algorithms/tree/master/search/interpolationSearch) - æ’å€¼æŸ¥æ‰¾
-* [fibonacciSearch](https://github.com/Like-Drinking-water/algorithms/tree/master/search/fibonacciSearch) - æ–æ³¢é‚£å¥‘æŸ¥æ‰¾
-* [binarySortTree](https://github.com/Like-Drinking-water/algorithms/tree/master/search/binarySortTree) - äºŒå‰æ’åºæ ‘
-* [balancedBinaryTree](https://github.com/Like-Drinking-water/algorithms/tree/master/search/balancedBinaryTree) - å¹³è¡¡äºŒå‰æ ‘
+# ²éÕÒ
+## Ä¿Â¼¼ò½é
+* [halfIntervalSearch](https://github.com/Like-Drinking-water/algorithms/tree/master/search/halfIntervalSearch) - ÕÛ°ë²éÕÒ
+* [interpolationSearch](https://github.com/Like-Drinking-water/algorithms/tree/master/search/interpolationSearch) - ²åÖµ²éÕÒ
+* [fibonacciSearch](https://github.com/Like-Drinking-water/algorithms/tree/master/search/fibonacciSearch) - ì³²¨ÄÇÆõ²éÕÒ
+* [binarySortTree](https://github.com/Like-Drinking-water/algorithms/tree/master/search/binarySortTree) - ¶ş²æÅÅĞòÊ÷
+* [balancedBinaryTree](https://github.com/Like-Drinking-water/algorithms/tree/master/search/balancedBinaryTree) - Æ½ºâ¶ş²æÊ÷
+* [hashTable](https://github.com/Like-Drinking-water/algorithms/tree/master/search/hashTable) - É¢ÁĞ±í²éÕÒ

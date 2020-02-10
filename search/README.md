@@ -6,3 +6,4 @@
 * [binarySortTree](https://github.com/Like-Drinking-water/algorithms/tree/master/search/binarySortTree) - 二叉排序树
 * [balancedBinaryTree](https://github.com/Like-Drinking-water/algorithms/tree/master/search/balancedBinaryTree) - 平衡二叉树
 * [hashTable](https://github.com/Like-Drinking-water/algorithms/tree/master/search/hashTable) - 散列表查找
+* [BTree](https://github.com/Like-Drinking-water/algorithms/tree/master/search/BTree) - B树
